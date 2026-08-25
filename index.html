@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <h1 class="logo">Your Name</h1>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+        🌙 Dark Mode
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container">
+        <h2>Hello, I'm Your Name</h2>
+        <p>
+          Welcome to my personal landing page. I’m a beginner web developer
+          learning to build clean, user-friendly websites.
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container card">
+        <h2>About Me</h2>
+        <p>
+          I enjoy creating simple and useful web projects. I’m currently focused
+          on improving my HTML, CSS, and JavaScript skills while learning best
+          practices for responsive and accessible design.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container card">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript (Basic)</li>
+          <li>Responsive Web Design</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container card">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-item">
+            <h3>Portfolio Starter</h3>
+            <p>A basic portfolio layout built with plain HTML and CSS.</p>
+          </article>
+
+          <article class="project-item">
+            <h3>To-Do App</h3>
+            <p>A beginner JavaScript project for managing daily tasks.</p>
+          </article>
+
+          <article class="project-item">
+            <h3>Landing Page</h3>
+            <p>A clean and responsive landing page with dark mode support.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container card">
+        <h2>Contact</h2>
+        <p>Email: yourname@example.com</p>
+        <p>LinkedIn: linkedin.com/in/yourname</p>
+        <p>GitHub: github.com/yourusername</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

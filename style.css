@@ -122,6 +122,34 @@ body {
   color: var(--accent);
 }
 
+.view-details-btn {
+  margin-top: 0.8rem;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  padding: 0.45rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.view-details-btn:hover {
+  border-color: var(--accent);
+}
+
+.view-details-btn:focus-visible,
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.project-details {
+  margin-top: 0.7rem;
+  padding-top: 0.7rem;
+  border-top: 1px dashed var(--border);
+  color: var(--muted);
+}
+
 .site-footer {
   border-top: 1px solid var(--border);
   padding: 1.2rem 0;

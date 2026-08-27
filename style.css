@@ -56,6 +56,21 @@ body {
   font-size: 1.2rem;
 }
 
+.primary-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.primary-nav a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.primary-nav a:hover,
+.primary-nav a:focus-visible {
+  color: var(--accent);
+}
+
 .theme-toggle {
   border: 1px solid var(--border);
   background: var(--card);
@@ -67,6 +82,7 @@ body {
 
 .section {
   padding: 3.5rem 0;
+  scroll-margin-top: 80px;
 }
 
 .hero h2 {
@@ -170,6 +186,19 @@ body {
 
   .logo {
     font-size: 1rem;
+  }
+
+  .nav-wrap {
+    flex-wrap: wrap;
+    padding: 0.6rem 0;
+  }
+
+  .primary-nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    gap: 0.8rem;
+    padding-top: 0.4rem;
   }
 
   .theme-toggle {
